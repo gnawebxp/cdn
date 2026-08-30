@@ -1,5 +1,25 @@
-Copyright © 2026 GladNoAd. All rights reserved.
+# GladNoAd — CDN
 
-This software and its source code are proprietary and confidential.
-No license or permission is granted to use, copy, modify, distribute,
-or create derivative works without prior written consent from the owner.
+Generated distribution assets for GladNoAd devices. **This repository contains no
+source code** — only build outputs that GladNoAd units fetch at runtime.
+
+## Contents
+- `bloom.bin` — the active blocklist, packed as a bloom filter. This is a one-way
+  hash of domain names; the original domain list is **not** recoverable from it.
+- `bloom_date.txt` — build timestamp the device checks to decide whether to update.
+
+## Blocklist sources & attribution
+The domains packed into `bloom.bin` are aggregated from third-party blocklists, which
+remain the property of their respective authors and are used under their own terms:
+
+- **StevenBlack/hosts** — https://github.com/StevenBlack/hosts — MIT License.
+- **HaGeZi / dns-blocklists** — https://github.com/hagezi/dns-blocklists — used under
+  that project's own license; see its LICENSE for terms.
+
+`bloom.bin` is a derived, hashed representation of these lists. No ownership of the
+underlying domain data is claimed here.
+
+## License
+The GladNoAd software, firmware, and name are proprietary and © 2026 GladNoAd.
+All rights reserved. This repository distributes only the generated blocklist data
+described above and grants no rights to GladNoAd source, firmware, or trademarks.
