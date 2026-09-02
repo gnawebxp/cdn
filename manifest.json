@@ -1,0 +1,32 @@
+{
+  "generated": "2026-09-02 17:23",
+  "categories": [
+    {
+      "id": "ads",
+      "name": "Ads & Trackers",
+      "file": "bloom_ads.bin",
+      "n": 225134,
+      "bytes": 404639,
+      "default": true,
+      "date": "2026-09-02 17:23"
+    },
+    {
+      "id": "threat",
+      "name": "Malware & Phishing",
+      "file": "bloom_threat.bin",
+      "n": 2180266,
+      "bytes": 3918399,
+      "default": true,
+      "date": "2026-09-02 17:23"
+    },
+    {
+      "id": "adult",
+      "name": "Adult Content",
+      "file": "bloom_adult.bin",
+      "n": 120697,
+      "bytes": 216945,
+      "default": false,
+      "date": "2026-09-02 17:23"
+    }
+  ]
+}
