@@ -1,32 +1,32 @@
 {
-  "generated": "2026-09-04 08:02",
+  "generated": "2026-09-05 08:02",
   "categories": [
     {
       "id": "ads",
       "name": "Ads & Trackers",
       "file": "bloom_ads.bin",
-      "n": 224706,
-      "bytes": 403870,
+      "n": 226420,
+      "bytes": 406950,
       "default": true,
-      "date": "2026-09-04 08:02"
+      "date": "2026-09-05 08:02"
     },
     {
       "id": "threat",
       "name": "Malware & Phishing",
       "file": "bloom_threat.bin",
-      "n": 2177381,
-      "bytes": 3913214,
+      "n": 2173533,
+      "bytes": 3906299,
       "default": true,
-      "date": "2026-09-04 08:02"
+      "date": "2026-09-05 08:02"
     },
     {
       "id": "adult",
       "name": "Adult Content",
       "file": "bloom_adult.bin",
-      "n": 125115,
-      "bytes": 224885,
+      "n": 125626,
+      "bytes": 225803,
       "default": false,
-      "date": "2026-09-04 08:02"
+      "date": "2026-09-05 08:02"
     }
   ]
 }
