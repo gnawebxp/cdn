@@ -1,32 +1,85 @@
 {
-  "generated": "2026-09-06 08:02",
+  "generated": "2026-09-07 08:02",
   "categories": [
     {
       "id": "ads",
       "name": "Ads & Trackers",
       "file": "bloom_ads.bin",
-      "n": 225116,
-      "bytes": 404607,
+      "n": 224797,
+      "bytes": 404033,
       "default": true,
-      "date": "2026-09-06 08:02"
+      "note": "",
+      "date": "2026-09-07 08:02"
     },
     {
       "id": "threat",
       "name": "Malware & Phishing",
       "file": "bloom_threat.bin",
-      "n": 2194442,
-      "bytes": 3943876,
+      "n": 2121596,
+      "bytes": 3812958,
       "default": true,
-      "date": "2026-09-06 08:02"
+      "note": "",
+      "date": "2026-09-07 08:02"
     },
     {
       "id": "adult",
       "name": "Adult Content",
       "file": "bloom_adult.bin",
-      "n": 126289,
-      "bytes": 226995,
+      "n": 127091,
+      "bytes": 228436,
       "default": false,
-      "date": "2026-09-06 08:02"
+      "note": "",
+      "date": "2026-09-07 08:02"
+    },
+    {
+      "id": "smarttv",
+      "name": "Smart-TV ACR & Ads",
+      "file": "bloom_smarttv.bin",
+      "n": 612,
+      "bytes": 1128,
+      "default": true,
+      "note": "Blocks smart-TV screenshot/audio tracking (ACR) and on-screen ads for Samsung, LG, and Roku. Highly effective with minimal breakage; some Roku menus may pause a few seconds when an ad server is unreachable.",
+      "date": "2026-09-07 08:02"
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon Device Telemetry",
+      "file": "bloom_amazon.bin",
+      "n": 369,
+      "bytes": 692,
+      "default": true,
+      "note": "Blocks Fire TV ads and Echo background telemetry. Voice commands are still processed on Amazon's servers - this does not stop Alexa audio, only the silent state/usage reporting.",
+      "date": "2026-09-07 08:02"
+    },
+    {
+      "id": "iot",
+      "name": "IoT Device Telemetry",
+      "file": "bloom_iot.bin",
+      "n": 1194,
+      "bytes": 2174,
+      "default": true,
+      "note": "Mutes phone-home telemetry from Xiaomi, Huawei, Vivo, and OPPO/Realme gear. Some cheap cameras may retry aggressively when blocked.",
+      "date": "2026-09-07 08:02"
+    },
+    {
+      "id": "apple",
+      "name": "Apple Telemetry & Ads",
+      "file": "bloom_apple.bin",
+      "n": 108,
+      "bytes": 223,
+      "default": false,
+      "note": "Blocks Apple OS analytics and App Store ads. OFF by default: only takes effect if iCloud Private Relay / 'Limit IP Address Tracking' is disabled on the device, and can affect location/Siri features.",
+      "date": "2026-09-07 08:02"
+    },
+    {
+      "id": "winoffice",
+      "name": "Windows/Office Telemetry",
+      "file": "bloom_winoffice.bin",
+      "n": 388,
+      "bytes": 726,
+      "default": false,
+      "note": "Blocks Windows/Office diagnostic telemetry. OFF by default: verify Office 365 sync and Xbox Live still work for your setup before leaving it on.",
+      "date": "2026-09-07 08:02"
     }
   ]
 }
