@@ -1,15 +1,15 @@
 {
-  "generated": "2026-09-23 08:02",
+  "generated": "2026-09-24 08:01",
   "categories": [
     {
       "id": "ads",
       "name": "Ads & Trackers",
       "file": "bloom_ads.bin",
-      "n": 229019,
-      "bytes": 548819,
+      "n": 225658,
+      "bytes": 540765,
       "default": true,
       "note": "Blocks ad, tracking and analytics domains (HaGeZi Pro tier) - the core protection, leave it on. If a page misbehaves, allowlist that one domain rather than switching the category off.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     },
     {
       "id": "threat",
@@ -19,27 +19,27 @@
       "bytes": 3880027,
       "default": true,
       "note": "Blocks known malware, phishing and scam domains. Very low false-positive risk and no day-to-day breakage, so it is recommended on for every device on the network.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     },
     {
       "id": "adult",
       "name": "Adult Content",
       "file": "bloom_adult.bin",
-      "n": 74847,
-      "bytes": 179382,
+      "n": 75539,
+      "bytes": 181040,
       "default": false,
       "note": "Blocks adult content domains. OFF by default. Coverage is partial - any device that ignores this resolver or uses encrypted DNS walks straight past it, so do not rely on it alone.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     },
     {
       "id": "smarttv",
       "name": "Smart-TV ACR & Ads",
       "file": "bloom_smarttv.bin",
-      "n": 497,
-      "bytes": 1219,
+      "n": 505,
+      "bytes": 1239,
       "default": true,
       "note": "Blocks screen-content tracking (ACR) and TV ads. Samsung, LG and Vizio honour your DNS, so it bites there. Roku often hardcodes its own, so that share needs a router port-53/853 redirect.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     },
     {
       "id": "amazon",
@@ -49,7 +49,7 @@
       "bytes": 918,
       "default": true,
       "note": "Blocks Fire TV ads and Echo background telemetry. Voice commands still go to Amazon - this only stops silent usage reporting. Setup, auth and OTA hosts stay allowlisted so devices keep working.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     },
     {
       "id": "iot",
@@ -59,7 +59,7 @@
       "bytes": 2904,
       "default": true,
       "note": "Mutes phone-home telemetry from Xiaomi, Huawei, Vivo and OPPO/Realme gear. Some cheap cameras retry hard when blocked and get noisy on the network; switch those devices to frictionless mode.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     },
     {
       "id": "apple",
@@ -69,7 +69,7 @@
       "bytes": 290,
       "default": false,
       "note": "Blocks Apple OS analytics and App Store ads. OFF by default and mostly placebo unless iCloud Private Relay and 'Limit IP Address Tracking' are off - Apple otherwise routes DNS around you.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     },
     {
       "id": "winoffice",
@@ -79,7 +79,7 @@
       "bytes": 958,
       "default": false,
       "note": "Blocks Windows and Office diagnostic telemetry. OFF by default: Microsoft retries hard and some builds fall back to hardcoded IPs, so coverage is partial. Check Office sync and Xbox Live first.",
-      "date": "2026-09-23 08:02"
+      "date": "2026-09-24 08:01"
     }
   ]
 }
