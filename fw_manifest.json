@@ -1,16 +1,14 @@
 {
   "schema": 1,
-  "version": "1.15.3",
-  "min_from": "1.15.2",
-  "url": "https://cdn.gladnoad.com/gna-fw-1.15.3.bin",
-  "size": 1234640,
-  "sha256": "fb743de8b5764f46db7c294f799884dc29ddf56ddf7b6ca07af0d779c488112f",
+  "version": "1.15.2",
+  "min_from": "1.15.1",
+  "url": "https://cdn.gladnoad.com/gna-fw-1.15.2.bin",
+  "size": 1234976,
+  "sha256": "188b654704eb20e879d240cc534ecfe0ee89bce8889e5d7cf3ef811913d49356",
   "key_id": "6f88f98d",
-  "sig": "MEQCICgiCMd6HRclcvr4XR1C3rKthq1a+vpA5EjbOxZ8uDXPAiAYonJdzYtj2L6IjzKUKxLN1h9uZHBv1XH4C9/jj34m6w==",
+  "sig": "MEQCIHCehNU4tRtLVrfK7lTKh0wOGP6wXs325q4dQeL18D0GAiA8jJ4d25uVNrUS+XfoP/aWegCr5yHwNzKYbBZADBdLUg==",
   "rollout_pct": 0,
-  "canary": [
-    "GNA-7GCQV-099XC"
-  ],
-  "commit": "eb4c040-dirty",
-  "signed_at": "2026-11-22T02:55:07Z"
+  "canary": ["GNA-7GCQV-099XC"],
+  "commit": "eb4c040",
+  "signed_at": "2026-11-22T01:26:26Z"
 }
