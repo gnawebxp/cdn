@@ -8,7 +8,10 @@
   "key_id": "6f88f98d",
   "sig": "MEQCIHCehNU4tRtLVrfK7lTKh0wOGP6wXs325q4dQeL18D0GAiA8jJ4d25uVNrUS+XfoP/aWegCr5yHwNzKYbBZADBdLUg==",
   "rollout_pct": 0,
-  "canary": ["GNA-7GCQV-099XC"],
+  "canary": [
+    "GNA-7GCQV-099XC",
+    "GNA-7G13E-FC6T4"
+  ],
   "commit": "eb4c040",
   "signed_at": "2026-11-22T01:26:26Z"
 }
