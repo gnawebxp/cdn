@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "version": "1.15.2",
+  "min_from": "1.15.1",
+  "url": "https://cdn.gladnoad.com/gna-fw-1.15.2.bin",
+  "size": 1234976,
+  "sha256": "188b654704eb20e879d240cc534ecfe0ee89bce8889e5d7cf3ef811913d49356",
+  "key_id": "6f88f98d",
+  "sig": "MEQCIHCehNU4tRtLVrfK7lTKh0wOGP6wXs325q4dQeL18D0GAiA8jJ4d25uVNrUS+XfoP/aWegCr5yHwNzKYbBZADBdLUg==",
+  "rollout_pct": 0,
+  "canary": ["GNA-7GCQV-099XC"],
+  "commit": "eb4c040",
+  "signed_at": "2026-11-22T01:26:26Z"
+}
